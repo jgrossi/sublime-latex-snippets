@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+\begin{table}
+    \label{tab:$1}
+    \caption{$2}
+    \begin{center}
+        \begin{tabular}{|p{${3:3cm}}|p{${4:3cm}}|}
+            \hline 
+            \textbf{$5} & \textbf{$6} \\\ 
+            \hline 
+            $7 & $8 \\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

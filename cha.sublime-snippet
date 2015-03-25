@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\chapter{${1:chapter name}}
+\label{cha:${2:chapter_name}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cha</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>\chapter</description>
+</snippet>

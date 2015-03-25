@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\subsection{${1:subsection name}}
+\label{ssec:${2:subsection_name}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ssec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+	<description>\subsection</description>
+</snippet>

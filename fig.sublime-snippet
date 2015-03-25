@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}
+	\label{fig:$1}
+	\centering
+	\caption{$2}
+	\includegraphics[width=${3:0.6}\linewidth]{./${4:assets/}}
+\end{figure}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fig</tabTrigger>
+	Optional: My custom figure snippet
+	<scope>text.tex.latex</scope>
+</snippet>
